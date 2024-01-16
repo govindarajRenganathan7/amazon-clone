@@ -66,3 +66,70 @@ body{
     position:static ;
     
 }
+
+/* **88888888888888888888888888888888888888888888888888888888** */
+
+/*  another way to disappear the content of the page */
+
+/* /////// new section of code for designing the single page application /////// */
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 100vh;
+    margin: 2rem;
+}
+button{
+    font-size: inherit;
+    background-color: green;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    top: 70vh;
+    z-index: 1;
+}
+
+section h2{
+    padding: 2rem;
+    text-align: center;
+}
+
+header{
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+footer{
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+ .green{
+    background-color: green;
+ }
+
+ footer{
+    background-color: #333;
+    color: white;
+    position: sticky;
+    bottom: 0;
+ }
+ 
+ footer a, footer a:visited{
+    color: whitesmoke;
+ }
