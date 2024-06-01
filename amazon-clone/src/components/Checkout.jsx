@@ -3,6 +3,7 @@ import add from '../assets/primeday.png'
 import './Checkout.css'
 import { useStateValue } from './stateProvider'
 import Checkoutproduct from './checkoutproduct '
+import Subtotal from './Subtotal'
 
 const Checkout = () => {
   const [ {basket}, dispatch ] = useStateValue();
@@ -34,7 +35,7 @@ const Checkout = () => {
         }
       </div>
       </div>
-      {basket?.length ?  <div className='checkout__right'><h2>subtotal</h2></div> :<></>}
+      {basket?.length ?  <div className='checkout__right'><Subtotal/></div> :<></>}
     </div>
   )
 }

@@ -1,3 +1,19 @@
 body{
     background-color: rgb(234,237,237);
 }
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Bold */
+  }
+  
+  p, a, span, div {
+    font-weight: 400; /* Regular */
+  }
+  
+  button {
+    font-weight: 500; /* Medium */
+  }
+  
